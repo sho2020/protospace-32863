@@ -5,4 +5,6 @@ class UsersController < ApplicationController
     @prototypes = @user.prototypes
   end
 
+  def create
+  end
 end
